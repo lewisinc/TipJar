@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5091AA4CC8C00221366 /* AppDelegate.swift */; };
+		8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */; };
+		8E36A50F1AA4CC8C00221366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50E1AA4CC8C00221366 /* ViewController.swift */; };
+		8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5101AA4CC8C00221366 /* Main.storyboard */; };
+		8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5131AA4CC8C00221366 /* Images.xcassets */; };
+		8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */; };
+		8E36A5231AA4CC8C00221366 /* TipJarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5221AA4CC8C00221366 /* TipJarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E36A51D1AA4CC8C00221366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E36A4FC1AA4CC8C00221366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E36A5031AA4CC8C00221366;
+			remoteInfo = TipJar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E36A5041AA4CC8C00221366 /* TipJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E36A5081AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E36A5091AA4CC8C00221366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E36A50C1AA4CC8C00221366 /* TipJar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TipJar.xcdatamodel; sourceTree = "<group>"; };
+		8E36A50E1AA4CC8C00221366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E36A5111AA4CC8C00221366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E36A5131AA4CC8C00221366 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E36A5161AA4CC8C00221366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8E36A51C1AA4CC8C00221366 /* TipJarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E36A5211AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E36A5221AA4CC8C00221366 /* TipJarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E36A5011AA4CC8C00221366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E36A5191AA4CC8C00221366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E36A4FB1AA4CC8C00221366 = {
+			isa = PBXGroup;
+			children = (
+				8E36A5061AA4CC8C00221366 /* TipJar */,
+				8E36A51F1AA4CC8C00221366 /* TipJarTests */,
+				8E36A5051AA4CC8C00221366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E36A5051AA4CC8C00221366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E36A5041AA4CC8C00221366 /* TipJar.app */,
+				8E36A51C1AA4CC8C00221366 /* TipJarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E36A5061AA4CC8C00221366 /* TipJar */ = {
+			isa = PBXGroup;
+			children = (
+				8E36A5091AA4CC8C00221366 /* AppDelegate.swift */,
+				8E36A50E1AA4CC8C00221366 /* ViewController.swift */,
+				8E36A5101AA4CC8C00221366 /* Main.storyboard */,
+				8E36A5131AA4CC8C00221366 /* Images.xcassets */,
+				8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */,
+				8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */,
+				8E36A5071AA4CC8C00221366 /* Supporting Files */,
+			);
+			path = TipJar;
+			sourceTree = "<group>";
+		};
+		8E36A5071AA4CC8C00221366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E36A5081AA4CC8C00221366 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E36A51F1AA4CC8C00221366 /* TipJarTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E36A5221AA4CC8C00221366 /* TipJarTests.swift */,
+				8E36A5201AA4CC8C00221366 /* Supporting Files */,
+			);
+			path = TipJarTests;
+			sourceTree = "<group>";
+		};
+		8E36A5201AA4CC8C00221366 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E36A5211AA4CC8C00221366 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E36A5031AA4CC8C00221366 /* TipJar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E36A5261AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJar" */;
+			buildPhases = (
+				8E36A5001AA4CC8C00221366 /* Sources */,
+				8E36A5011AA4CC8C00221366 /* Frameworks */,
+				8E36A5021AA4CC8C00221366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipJar;
+			productName = TipJar;
+			productReference = 8E36A5041AA4CC8C00221366 /* TipJar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E36A51B1AA4CC8C00221366 /* TipJarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E36A5291AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJarTests" */;
+			buildPhases = (
+				8E36A5181AA4CC8C00221366 /* Sources */,
+				8E36A5191AA4CC8C00221366 /* Frameworks */,
+				8E36A51A1AA4CC8C00221366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E36A51E1AA4CC8C00221366 /* PBXTargetDependency */,
+			);
+			name = TipJarTests;
+			productName = TipJarTests;
+			productReference = 8E36A51C1AA4CC8C00221366 /* TipJarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E36A4FC1AA4CC8C00221366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "David Lewis";
+				TargetAttributes = {
+					8E36A5031AA4CC8C00221366 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8E36A51B1AA4CC8C00221366 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8E36A5031AA4CC8C00221366;
+					};
+				};
+			};
+			buildConfigurationList = 8E36A4FF1AA4CC8C00221366 /* Build configuration list for PBXProject "TipJar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E36A4FB1AA4CC8C00221366;
+			productRefGroup = 8E36A5051AA4CC8C00221366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E36A5031AA4CC8C00221366 /* TipJar */,
+				8E36A51B1AA4CC8C00221366 /* TipJarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E36A5021AA4CC8C00221366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */,
+				8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */,
+				8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E36A51A1AA4CC8C00221366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E36A5001AA4CC8C00221366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36A50F1AA4CC8C00221366 /* ViewController.swift in Sources */,
+				8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */,
+				8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E36A5181AA4CC8C00221366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E36A5231AA4CC8C00221366 /* TipJarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E36A51E1AA4CC8C00221366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E36A5031AA4CC8C00221366 /* TipJar */;
+			targetProxy = 8E36A51D1AA4CC8C00221366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E36A5101AA4CC8C00221366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E36A5111AA4CC8C00221366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E36A5161AA4CC8C00221366 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E36A5241AA4CC8C00221366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E36A5251AA4CC8C00221366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E36A5271AA4CC8C00221366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipJar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E36A5281AA4CC8C00221366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipJar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E36A52A1AA4CC8C00221366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipJarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipJar.app/TipJar";
+			};
+			name = Debug;
+		};
+		8E36A52B1AA4CC8C00221366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TipJarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipJar.app/TipJar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E36A4FF1AA4CC8C00221366 /* Build configuration list for PBXProject "TipJar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36A5241AA4CC8C00221366 /* Debug */,
+				8E36A5251AA4CC8C00221366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E36A5261AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36A5271AA4CC8C00221366 /* Debug */,
+				8E36A5281AA4CC8C00221366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E36A5291AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E36A52A1AA4CC8C00221366 /* Debug */,
+				8E36A52B1AA4CC8C00221366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E36A50C1AA4CC8C00221366 /* TipJar.xcdatamodel */,
+			);
+			currentVersion = 8E36A50C1AA4CC8C00221366 /* TipJar.xcdatamodel */;
+			path = TipJar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E36A4FC1AA4CC8C00221366 /* Project object */;
+}
