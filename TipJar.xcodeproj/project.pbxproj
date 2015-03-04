@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8E01A5A41AA794EB00FD4317 /* Learning Resources in Resources */ = {isa = PBXBuildFile; fileRef = 8E01A5A31AA794EB00FD4317 /* Learning Resources */; };
+		8E01A5A81AA7BF0E00FD4317 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8E01A5A71AA7BF0E00FD4317 /* README.md */; };
 		8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5091AA4CC8C00221366 /* AppDelegate.swift */; };
 		8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */; };
 		8E36A50F1AA4CC8C00221366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50E1AA4CC8C00221366 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		8E01A5A31AA794EB00FD4317 /* Learning Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Learning Resources"; sourceTree = "<group>"; };
+		8E01A5A71AA7BF0E00FD4317 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E36A5041AA4CC8C00221366 /* TipJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36A5081AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E36A5091AA4CC8C00221366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		8E36A4FB1AA4CC8C00221366 = {
 			isa = PBXGroup;
 			children = (
+				8E01A5A71AA7BF0E00FD4317 /* README.md */,
 				8E36A5061AA4CC8C00221366 /* TipJar */,
 				8E36A51F1AA4CC8C00221366 /* TipJarTests */,
 				8E36A5051AA4CC8C00221366 /* Products */,
@@ -230,6 +233,7 @@
 			files = (
 				8E36A50F1AA4CC8C00221366 /* ViewController.swift in Sources */,
 				8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */,
+				8E01A5A81AA7BF0E00FD4317 /* README.md in Sources */,
 				8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
