@@ -5,7 +5,7 @@
 	Selmi, Nidhal
 	Wren, Paul 'Graham'
 
-	The main goal of this project is to provide performers with a tool to connect with their audience members (and vice-versa) in an intuitive and hopefully profitable manner. Through a proximity-based broadcast, using Bluetooth Low Energy technology, performers will be able to connect nearby spectators to their preferred Social Media as well as receive financial donations.
+The main goal of this project is to provide performers with a tool to connect with their audience members (and vice-versa) in an intuitive and hopefully profitable manner. Through a proximity-based broadcast, using Bluetooth Low Energy technology, performers will be able to connect nearby spectators to their preferred Social Media as well as receive financial donations.
 
 Within this project there are two smaller products that work in tandem:
 	1. TipJar.app
