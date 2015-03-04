@@ -79,6 +79,7 @@
 		8E36A5061AA4CC8C00221366 /* TipJar */ = {
 			isa = PBXGroup;
 			children = (
+				8E4E5E2C1AA6B6790028D687 /* BluetoothUtility */,
 				8E36A5091AA4CC8C00221366 /* AppDelegate.swift */,
 				8E36A50E1AA4CC8C00221366 /* ViewController.swift */,
 				8E36A5101AA4CC8C00221366 /* Main.storyboard */,
@@ -113,6 +114,13 @@
 				8E36A5211AA4CC8C00221366 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E4E5E2C1AA6B6790028D687 /* BluetoothUtility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BluetoothUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +420,7 @@
 				8E36A5281AA4CC8C00221366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E36A5291AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJarTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				8E36A52B1AA4CC8C00221366 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

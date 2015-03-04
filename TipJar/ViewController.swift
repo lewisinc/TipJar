@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    // Test Comment
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,4 +22,3 @@ class ViewController: UIViewController {
 
     
 }
-
