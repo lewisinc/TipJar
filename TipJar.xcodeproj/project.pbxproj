@@ -16,6 +16,7 @@
 		8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5131AA4CC8C00221366 /* Images.xcassets */; };
 		8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */; };
 		8E36A5231AA4CC8C00221366 /* TipJarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5221AA4CC8C00221366 /* TipJarTests.swift */; };
+		8E8CECC11AAD3F1400887D83 /* TipJar Server in Resources */ = {isa = PBXBuildFile; fileRef = 8E8CECC01AAD3F1400887D83 /* TipJar Server */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		8E36A51C1AA4CC8C00221366 /* TipJarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36A5211AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E36A5221AA4CC8C00221366 /* TipJarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarTests.swift; sourceTree = "<group>"; };
+		8E8CECC01AAD3F1400887D83 /* TipJar Server */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "TipJar Server"; path = "TipJar/TipJar Server"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		8E36A4FB1AA4CC8C00221366 = {
 			isa = PBXGroup;
 			children = (
+				8E8CECC01AAD3F1400887D83 /* TipJar Server */,
 				8E01A5A71AA7BF0E00FD4317 /* README.md */,
 				8E36A5061AA4CC8C00221366 /* TipJar */,
 				8E36A51F1AA4CC8C00221366 /* TipJarTests */,
@@ -213,6 +216,7 @@
 				8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */,
 				8E01A5A41AA794EB00FD4317 /* Learning Resources in Resources */,
 				8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */,
+				8E8CECC11AAD3F1400887D83 /* TipJar Server in Resources */,
 				8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
