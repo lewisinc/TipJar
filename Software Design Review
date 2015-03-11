@@ -1,0 +1,20 @@
+Software Design Review: Due March 24
+
+Slide 1: Too easy to worry about.
+
+Slide 2: UI: David is working on it. Nearly finished.
+
+Slide 3: Deployment Diagram — Wait until next week for Strenn to lecture on.
+
+Slide 4: Structural View — UML diagram - need to design.
+  -Class that implements bluetooth technology so users can identify one another.
+  -Class for calling coinbase. One method does so.
+  -Class for creating user account.
+  --If there are anymore classes you guys can think of, then add them here. We can add methods after.
+
+Slide 5: Behavioural View — Not sure what this is. Please add anything relevant to this.
+
+Slide 6: Spike Project — We should write a spike project for the class that implements bluetooth.
+
+Slide 7: Testing and Validation — Most complex classes:
+  -Class that implements bluetooth technology so users can identify one another.
