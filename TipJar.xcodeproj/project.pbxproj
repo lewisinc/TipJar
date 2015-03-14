@@ -15,6 +15,7 @@
 		8E1C0E111AB4D2A200C40FBE /* TipScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C0E101AB4D2A200C40FBE /* TipScreenViewController.swift */; };
 		8E1C0E131AB4E08400C40FBE /* SpectatorIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C0E121AB4E08400C40FBE /* SpectatorIdentity.swift */; };
 		8E1C0E151AB4E09500C40FBE /* PerformerIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C0E141AB4E09500C40FBE /* PerformerIdentity.swift */; };
+		8E1C0E181AB4E5F300C40FBE /* Software Design Review in Resources */ = {isa = PBXBuildFile; fileRef = 8E1C0E171AB4E5F300C40FBE /* Software Design Review */; };
 		8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5091AA4CC8C00221366 /* AppDelegate.swift */; };
 		8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */; };
 		8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5101AA4CC8C00221366 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		8E1C0E101AB4D2A200C40FBE /* TipScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipScreenViewController.swift; sourceTree = "<group>"; };
 		8E1C0E121AB4E08400C40FBE /* SpectatorIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectatorIdentity.swift; sourceTree = "<group>"; };
 		8E1C0E141AB4E09500C40FBE /* PerformerIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformerIdentity.swift; sourceTree = "<group>"; };
+		8E1C0E171AB4E5F300C40FBE /* Software Design Review */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Software Design Review"; sourceTree = "<group>"; };
 		8E36A5041AA4CC8C00221366 /* TipJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36A5081AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E36A5091AA4CC8C00221366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		8E36A4FB1AA4CC8C00221366 = {
 			isa = PBXGroup;
 			children = (
+				8E1C0E171AB4E5F300C40FBE /* Software Design Review */,
 				8E01A5A71AA7BF0E00FD4317 /* README.md */,
 				8E36A5061AA4CC8C00221366 /* TipJar */,
 				8E36A51F1AA4CC8C00221366 /* TipJarTests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */,
+				8E1C0E181AB4E5F300C40FBE /* Software Design Review in Resources */,
 				8E01A5A41AA794EB00FD4317 /* Learning Resources in Resources */,
 				8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */,
 				8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */,
