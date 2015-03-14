@@ -9,9 +9,14 @@
 /* Begin PBXBuildFile section */
 		8E01A5A41AA794EB00FD4317 /* Learning Resources in Resources */ = {isa = PBXBuildFile; fileRef = 8E01A5A31AA794EB00FD4317 /* Learning Resources */; };
 		8E01A5A81AA7BF0E00FD4317 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8E01A5A71AA7BF0E00FD4317 /* README.md */; };
+		8E0766461AB4CFFC00211AA4 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0766451AB4CFFC00211AA4 /* WelcomeScreenViewController.swift */; };
+		8E0766481AB4D00C00211AA4 /* NearbyPerformancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0766471AB4D00C00211AA4 /* NearbyPerformancesViewController.swift */; };
+		8E07664A1AB4D02100211AA4 /* PerfomanceManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0766491AB4D02100211AA4 /* PerfomanceManagerViewController.swift */; };
+		8E1C0E111AB4D2A200C40FBE /* TipScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C0E101AB4D2A200C40FBE /* TipScreenViewController.swift */; };
+		8E1C0E131AB4E08400C40FBE /* SpectatorIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C0E121AB4E08400C40FBE /* SpectatorIdentity.swift */; };
+		8E1C0E151AB4E09500C40FBE /* PerformerIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C0E141AB4E09500C40FBE /* PerformerIdentity.swift */; };
 		8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5091AA4CC8C00221366 /* AppDelegate.swift */; };
 		8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */; };
-		8E36A50F1AA4CC8C00221366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A50E1AA4CC8C00221366 /* ViewController.swift */; };
 		8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5101AA4CC8C00221366 /* Main.storyboard */; };
 		8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5131AA4CC8C00221366 /* Images.xcassets */; };
 		8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */; };
@@ -31,11 +36,16 @@
 /* Begin PBXFileReference section */
 		8E01A5A31AA794EB00FD4317 /* Learning Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Learning Resources"; sourceTree = "<group>"; };
 		8E01A5A71AA7BF0E00FD4317 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8E0766451AB4CFFC00211AA4 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		8E0766471AB4D00C00211AA4 /* NearbyPerformancesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyPerformancesViewController.swift; sourceTree = "<group>"; };
+		8E0766491AB4D02100211AA4 /* PerfomanceManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfomanceManagerViewController.swift; sourceTree = "<group>"; };
+		8E1C0E101AB4D2A200C40FBE /* TipScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipScreenViewController.swift; sourceTree = "<group>"; };
+		8E1C0E121AB4E08400C40FBE /* SpectatorIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpectatorIdentity.swift; sourceTree = "<group>"; };
+		8E1C0E141AB4E09500C40FBE /* PerformerIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformerIdentity.swift; sourceTree = "<group>"; };
 		8E36A5041AA4CC8C00221366 /* TipJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36A5081AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E36A5091AA4CC8C00221366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E36A50C1AA4CC8C00221366 /* TipJar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TipJar.xcdatamodel; sourceTree = "<group>"; };
-		8E36A50E1AA4CC8C00221366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8E36A5111AA4CC8C00221366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E36A5131AA4CC8C00221366 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8E36A5161AA4CC8C00221366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -62,6 +72,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E07663E1AB4CC1200211AA4 /* FirebaseUtility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FirebaseUtility;
+			sourceTree = "<group>";
+		};
+		8E07663F1AB4CC2000211AA4 /* BitcoinService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BitcoinService;
+			sourceTree = "<group>";
+		};
+		8E0766401AB4CC2C00211AA4 /* ApplePayService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ApplePayService;
+			sourceTree = "<group>";
+		};
+		8E1C0E161AB4E09C00C40FBE /* Identities */ = {
+			isa = PBXGroup;
+			children = (
+				8E1C0E121AB4E08400C40FBE /* SpectatorIdentity.swift */,
+				8E1C0E141AB4E09500C40FBE /* PerformerIdentity.swift */,
+			);
+			name = Identities;
+			sourceTree = "<group>";
+		};
 		8E36A4FB1AA4CC8C00221366 = {
 			isa = PBXGroup;
 			children = (
@@ -85,13 +125,20 @@
 		8E36A5061AA4CC8C00221366 /* TipJar */ = {
 			isa = PBXGroup;
 			children = (
+				8E0766401AB4CC2C00211AA4 /* ApplePayService */,
+				8E07663F1AB4CC2000211AA4 /* BitcoinService */,
+				8E07663E1AB4CC1200211AA4 /* FirebaseUtility */,
 				8E4E5E2C1AA6B6790028D687 /* BluetoothUtility */,
+				8E1C0E161AB4E09C00C40FBE /* Identities */,
 				8E36A5091AA4CC8C00221366 /* AppDelegate.swift */,
-				8E36A50E1AA4CC8C00221366 /* ViewController.swift */,
+				8E0766451AB4CFFC00211AA4 /* WelcomeScreenViewController.swift */,
+				8E0766471AB4D00C00211AA4 /* NearbyPerformancesViewController.swift */,
+				8E0766491AB4D02100211AA4 /* PerfomanceManagerViewController.swift */,
+				8E1C0E101AB4D2A200C40FBE /* TipScreenViewController.swift */,
 				8E36A5101AA4CC8C00221366 /* Main.storyboard */,
-				8E36A5131AA4CC8C00221366 /* Images.xcassets */,
 				8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */,
 				8E36A50B1AA4CC8C00221366 /* TipJar.xcdatamodeld */,
+				8E36A5131AA4CC8C00221366 /* Images.xcassets */,
 				8E36A5071AA4CC8C00221366 /* Supporting Files */,
 			);
 			path = TipJar;
@@ -231,10 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E36A50F1AA4CC8C00221366 /* ViewController.swift in Sources */,
 				8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */,
+				8E1C0E131AB4E08400C40FBE /* SpectatorIdentity.swift in Sources */,
+				8E0766461AB4CFFC00211AA4 /* WelcomeScreenViewController.swift in Sources */,
 				8E01A5A81AA7BF0E00FD4317 /* README.md in Sources */,
 				8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */,
+				8E1C0E151AB4E09500C40FBE /* PerformerIdentity.swift in Sources */,
+				8E07664A1AB4D02100211AA4 /* PerfomanceManagerViewController.swift in Sources */,
+				8E1C0E111AB4D2A200C40FBE /* TipScreenViewController.swift in Sources */,
+				8E0766481AB4D00C00211AA4 /* NearbyPerformancesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
