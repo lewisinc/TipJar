@@ -32,6 +32,7 @@
 		8E82958A1AB5315900AE952B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8295881AB5315900AE952B /* FirebaseUtility.swift */; };
 		8E82958C1AB531D400AE952B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E82958B1AB531D400AE952B /* Podfile */; };
 		8E82958D1AB531D400AE952B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E82958B1AB531D400AE952B /* Podfile */; };
+		8EBEE89F1AB61EE000B9B0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5101AA4CC8C00221366 /* Main.storyboard */; };
 		D9AC8B48EF2CFF170C57DAD9 /* libPods-TipJar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3F1C0C0EF26A1CD76E2D45 /* libPods-TipJar.a */; };
 /* End PBXBuildFile section */
 
@@ -349,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E82958D1AB531D400AE952B /* Podfile in Resources */,
+				8EBEE89F1AB61EE000B9B0E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,9 +560,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TipJar/TipJar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = TipJar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -577,9 +580,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = TipJar/TipJar.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = TipJar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
