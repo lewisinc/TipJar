@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DE5BDA19B91D2D805BD416B /* libPods-TipJarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2673F3FEB1E9D3E9A2F64108 /* libPods-TipJarTests.a */; };
 		8E01A5A41AA794EB00FD4317 /* Learning Resources in Resources */ = {isa = PBXBuildFile; fileRef = 8E01A5A31AA794EB00FD4317 /* Learning Resources */; };
-		8E01A5A81AA7BF0E00FD4317 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8E01A5A71AA7BF0E00FD4317 /* README.md */; };
 		8E0766461AB4CFFC00211AA4 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0766451AB4CFFC00211AA4 /* WelcomeScreenViewController.swift */; };
 		8E0766481AB4D00C00211AA4 /* NearbyPerformancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0766471AB4D00C00211AA4 /* NearbyPerformancesViewController.swift */; };
 		8E07664A1AB4D02100211AA4 /* PerfomanceManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0766491AB4D02100211AA4 /* PerfomanceManagerViewController.swift */; };
@@ -22,6 +22,17 @@
 		8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5131AA4CC8C00221366 /* Images.xcassets */; };
 		8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */; };
 		8E36A5231AA4CC8C00221366 /* TipJarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5221AA4CC8C00221366 /* TipJarTests.swift */; };
+		8E82957A1AB52E9600AE952B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8295791AB52E9600AE952B /* libicucore.dylib */; };
+		8E82957C1AB52EA300AE952B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E82957B1AB52EA300AE952B /* libc++.dylib */; };
+		8E82957E1AB52EAC00AE952B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E82957D1AB52EAC00AE952B /* CFNetwork.framework */; };
+		8E8295801AB52EB600AE952B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E82957F1AB52EB600AE952B /* Security.framework */; };
+		8E8295821AB52EC200AE952B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8295811AB52EC200AE952B /* SystemConfiguration.framework */; };
+		8E8295831AB52FAF00AE952B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8E01A5A71AA7BF0E00FD4317 /* README.md */; };
+		8E8295891AB5315900AE952B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8295881AB5315900AE952B /* FirebaseUtility.swift */; };
+		8E82958A1AB5315900AE952B /* FirebaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8295881AB5315900AE952B /* FirebaseUtility.swift */; };
+		8E82958C1AB531D400AE952B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E82958B1AB531D400AE952B /* Podfile */; };
+		8E82958D1AB531D400AE952B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8E82958B1AB531D400AE952B /* Podfile */; };
+		D9AC8B48EF2CFF170C57DAD9 /* libPods-TipJar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3F1C0C0EF26A1CD76E2D45 /* libPods-TipJar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2673F3FEB1E9D3E9A2F64108 /* libPods-TipJarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TipJarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E925A41AAE2240CE4C4429A /* Pods-TipJar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipJar/Pods-TipJar.release.xcconfig"; sourceTree = "<group>"; };
+		5143E4DE001E5588505FBEDD /* Pods-TipJarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipJarTests/Pods-TipJarTests.release.xcconfig"; sourceTree = "<group>"; };
+		64ED1B99D63677BF2367BA3E /* Pods-TipJarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipJarTests/Pods-TipJarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E01A5A31AA794EB00FD4317 /* Learning Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Learning Resources"; sourceTree = "<group>"; };
 		8E01A5A71AA7BF0E00FD4317 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8E0766451AB4CFFC00211AA4 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +69,16 @@
 		8E36A51C1AA4CC8C00221366 /* TipJarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36A5211AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E36A5221AA4CC8C00221366 /* TipJarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarTests.swift; sourceTree = "<group>"; };
+		8E8295791AB52E9600AE952B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		8E82957B1AB52EA300AE952B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		8E82957D1AB52EAC00AE952B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8E82957F1AB52EB600AE952B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8E8295811AB52EC200AE952B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8E8295851AB530D000AE952B /* TipJar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TipJar-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E8295881AB5315900AE952B /* FirebaseUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUtility.swift; sourceTree = "<group>"; };
+		8E82958B1AB531D400AE952B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		9E3F1C0C0EF26A1CD76E2D45 /* libPods-TipJar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TipJar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C422A34C7D22D9C2251C0F64 /* Pods-TipJar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipJar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipJar/Pods-TipJar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +86,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8295821AB52EC200AE952B /* SystemConfiguration.framework in Frameworks */,
+				8E8295801AB52EB600AE952B /* Security.framework in Frameworks */,
+				8E82957E1AB52EAC00AE952B /* CFNetwork.framework in Frameworks */,
+				8E82957C1AB52EA300AE952B /* libc++.dylib in Frameworks */,
+				8E82957A1AB52E9600AE952B /* libicucore.dylib in Frameworks */,
+				D9AC8B48EF2CFF170C57DAD9 /* libPods-TipJar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,15 +99,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE5BDA19B91D2D805BD416B /* libPods-TipJarTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026182C8CB18CA9B56341BEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C422A34C7D22D9C2251C0F64 /* Pods-TipJar.debug.xcconfig */,
+				3E925A41AAE2240CE4C4429A /* Pods-TipJar.release.xcconfig */,
+				64ED1B99D63677BF2367BA3E /* Pods-TipJarTests.debug.xcconfig */,
+				5143E4DE001E5588505FBEDD /* Pods-TipJarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		10CD84F15B8AC354E4AAC083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8295811AB52EC200AE952B /* SystemConfiguration.framework */,
+				8E82957F1AB52EB600AE952B /* Security.framework */,
+				8E82957D1AB52EAC00AE952B /* CFNetwork.framework */,
+				8E82957B1AB52EA300AE952B /* libc++.dylib */,
+				8E8295791AB52E9600AE952B /* libicucore.dylib */,
+				9E3F1C0C0EF26A1CD76E2D45 /* libPods-TipJar.a */,
+				2673F3FEB1E9D3E9A2F64108 /* libPods-TipJarTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E07663E1AB4CC1200211AA4 /* FirebaseUtility */ = {
 			isa = PBXGroup;
 			children = (
+				8E8295881AB5315900AE952B /* FirebaseUtility.swift */,
 			);
 			name = FirebaseUtility;
 			sourceTree = "<group>";
@@ -109,10 +167,13 @@
 			children = (
 				8E1C0E171AB4E5F300C40FBE /* Software Design Review */,
 				8E01A5A71AA7BF0E00FD4317 /* README.md */,
+				8E82958B1AB531D400AE952B /* Podfile */,
 				8E36A5061AA4CC8C00221366 /* TipJar */,
 				8E36A51F1AA4CC8C00221366 /* TipJarTests */,
 				8E36A5051AA4CC8C00221366 /* Products */,
 				8E01A5A31AA794EB00FD4317 /* Learning Resources */,
+				026182C8CB18CA9B56341BEF /* Pods */,
+				10CD84F15B8AC354E4AAC083 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +189,7 @@
 		8E36A5061AA4CC8C00221366 /* TipJar */ = {
 			isa = PBXGroup;
 			children = (
+				8E8295851AB530D000AE952B /* TipJar-Bridging-Header.h */,
 				8E0766401AB4CC2C00211AA4 /* ApplePayService */,
 				8E07663F1AB4CC2000211AA4 /* BitcoinService */,
 				8E07663E1AB4CC1200211AA4 /* FirebaseUtility */,
@@ -186,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E36A5261AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJar" */;
 			buildPhases = (
+				903BBFB840CBA218CEDD76EE /* Check Pods Manifest.lock */,
 				8E36A5001AA4CC8C00221366 /* Sources */,
 				8E36A5011AA4CC8C00221366 /* Frameworks */,
 				8E36A5021AA4CC8C00221366 /* Resources */,
+				E90916EADEEFAF5F263C9F2E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E36A5291AA4CC8C00221366 /* Build configuration list for PBXNativeTarget "TipJarTests" */;
 			buildPhases = (
+				BDA95A215EB660AC0635D9A9 /* Check Pods Manifest.lock */,
 				8E36A5181AA4CC8C00221366 /* Sources */,
 				8E36A5191AA4CC8C00221366 /* Frameworks */,
 				8E36A51A1AA4CC8C00221366 /* Resources */,
+				A56CB4769D34E24335429940 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,6 +295,14 @@
 					8E36A5031AA4CC8C00221366 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = K45HUS8C7P;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.OMC = {
+								enabled = 0;
+							};
+						};
 					};
 					8E36A51B1AA4CC8C00221366 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -260,10 +334,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8295831AB52FAF00AE952B /* README.md in Resources */,
 				8E36A5121AA4CC8C00221366 /* Main.storyboard in Resources */,
 				8E1C0E181AB4E5F300C40FBE /* Software Design Review in Resources */,
 				8E01A5A41AA794EB00FD4317 /* Learning Resources in Resources */,
 				8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */,
+				8E82958C1AB531D400AE952B /* Podfile in Resources */,
 				8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,10 +348,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E82958D1AB531D400AE952B /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		903BBFB840CBA218CEDD76EE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A56CB4769D34E24335429940 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipJarTests/Pods-TipJarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA95A215EB660AC0635D9A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E90916EADEEFAF5F263C9F2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipJar/Pods-TipJar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E36A5001AA4CC8C00221366 /* Sources */ = {
@@ -285,12 +425,12 @@
 				8E36A50A1AA4CC8C00221366 /* AppDelegate.swift in Sources */,
 				8E1C0E131AB4E08400C40FBE /* SpectatorIdentity.swift in Sources */,
 				8E0766461AB4CFFC00211AA4 /* WelcomeScreenViewController.swift in Sources */,
-				8E01A5A81AA7BF0E00FD4317 /* README.md in Sources */,
 				8E36A50D1AA4CC8C00221366 /* TipJar.xcdatamodeld in Sources */,
 				8E1C0E151AB4E09500C40FBE /* PerformerIdentity.swift in Sources */,
 				8E07664A1AB4D02100211AA4 /* PerfomanceManagerViewController.swift in Sources */,
 				8E1C0E111AB4D2A200C40FBE /* TipScreenViewController.swift in Sources */,
 				8E0766481AB4D00C00211AA4 /* NearbyPerformancesViewController.swift in Sources */,
+				8E8295891AB5315900AE952B /* FirebaseUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +439,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E36A5231AA4CC8C00221366 /* TipJarTests.swift in Sources */,
+				8E82958A1AB5315900AE952B /* FirebaseUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,26 +554,44 @@
 		};
 		8E36A5271AA4CC8C00221366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C422A34C7D22D9C2251C0F64 /* Pods-TipJar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TipJar/TipJar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipJar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TipJar/TipJar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8E36A5281AA4CC8C00221366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E925A41AAE2240CE4C4429A /* Pods-TipJar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TipJar/TipJar.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TipJar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TipJar/TipJar-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		8E36A52A1AA4CC8C00221366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64ED1B99D63677BF2367BA3E /* Pods-TipJarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -452,6 +611,7 @@
 		};
 		8E36A52B1AA4CC8C00221366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5143E4DE001E5588505FBEDD /* Pods-TipJarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
