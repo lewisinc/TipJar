@@ -8,5 +8,5 @@
 
 import Foundation
 
-var firebase = Firebase(url:"")
+var firebase = Firebase(url:"https://tipjar180.firebaseio.com")
 

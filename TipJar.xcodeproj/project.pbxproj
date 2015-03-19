@@ -14,6 +14,8 @@
 		8E36A5141AA4CC8C00221366 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5131AA4CC8C00221366 /* Images.xcassets */; };
 		8E36A5171AA4CC8C00221366 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E36A5151AA4CC8C00221366 /* LaunchScreen.xib */; };
 		8E36A5231AA4CC8C00221366 /* TipJarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E36A5221AA4CC8C00221366 /* TipJarTests.swift */; };
+		8ECBBC2C1AB95232002BEBBF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECBBC2B1AB95232002BEBBF /* CoreBluetooth.framework */; };
+		8ECBBC2E1AB95244002BEBBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ECBBC2D1AB95244002BEBBF /* Foundation.framework */; };
 		8EDF24C61AB92D0700277D65 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF24C51AB92D0700277D65 /* libicucore.dylib */; };
 		8EDF24C81AB92D0E00277D65 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF24C71AB92D0E00277D65 /* libc++.dylib */; };
 		8EDF24CA1AB92D1600277D65 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDF24C91AB92D1600277D65 /* CFNetwork.framework */; };
@@ -52,6 +54,8 @@
 		8E36A51C1AA4CC8C00221366 /* TipJarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipJarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E36A5211AA4CC8C00221366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E36A5221AA4CC8C00221366 /* TipJarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarTests.swift; sourceTree = "<group>"; };
+		8ECBBC2B1AB95232002BEBBF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		8ECBBC2D1AB95244002BEBBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8EDF24C51AB92D0700277D65 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		8EDF24C71AB92D0E00277D65 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		8EDF24C91AB92D1600277D65 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -74,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECBBC2E1AB95244002BEBBF /* Foundation.framework in Frameworks */,
+				8ECBBC2C1AB95232002BEBBF /* CoreBluetooth.framework in Frameworks */,
 				8EDF24D01AB92DB300277D65 /* Firebase.framework in Frameworks */,
 				8EDF24CE1AB92D4800277D65 /* SystemConfiguration.framework in Frameworks */,
 				8EDF24CC1AB92D2200277D65 /* Security.framework in Frameworks */,
@@ -196,6 +202,8 @@
 		8EDF24E81AB93E7500277D65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8ECBBC2D1AB95244002BEBBF /* Foundation.framework */,
+				8ECBBC2B1AB95232002BEBBF /* CoreBluetooth.framework */,
 				8EDF24CF1AB92DB300277D65 /* Firebase.framework */,
 				8EDF24CD1AB92D4800277D65 /* SystemConfiguration.framework */,
 				8EDF24CB1AB92D2200277D65 /* Security.framework */,
