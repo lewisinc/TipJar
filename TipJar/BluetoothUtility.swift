@@ -9,13 +9,14 @@
 import Foundation
 import CoreBluetooth
 
-let tipJarServicesUUID:CBUUID = CBUUID(string: "559B8DBE-C46C-46E2-9D68-6E2F2703E4C1")
-let performerIdentityServiceUUID:CBUUID = CBUUID(string: "559B8DBE-C46C-46E2-9D68-6E2F2703E4C2")
-let spectatorIdentityServiceUUID:CBUUID = CBUUID(string: "559B8DBE-C46C-46E2-9D68-6E2F2703E4C3")
 
 class BluetoothUtility {
     
 }
+
+let tipJarServicesUUID:CBUUID = CBUUID(string: "559B8DBE-C46C-46E2-9D68-6E2F2703E4C1")
+let performerIdentityServiceUUID:CBUUID = CBUUID(string: "559B8DBE-C46C-46E2-9D68-6E2F2703E4C2")
+let spectatorIdentityServiceUUID:CBUUID = CBUUID(string: "559B8DBE-C46C-46E2-9D68-6E2F2703E4C3")
 
 // Has performance data to share
 class TJCBPerformer: CBPeripheralManager, CBCentralManagerDelegate {
